@@ -15,7 +15,7 @@ exports.execute = (client, message, args) => {
         .setColor(9955331)
         .addField("Bot Stats", msg, false)
         .addBlankField(false)
-        .addField("Creator", "Monster#1337", false)
+        .addField("Creator", "Travellers#8888", false)
         .addField("Source", msg2, false);
 
     message.channel.send(embed);
