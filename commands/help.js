@@ -5,8 +5,8 @@ exports.execute = (client, message, args) => {
     if(args.length == 1){
         const emoji = client.emojis.find("name", "kappa");
         var title = `You have been helped ${emoji}`;
-        var msg = "List all commands: `.commands`\n";
-        msg += "Info about a command: `.help <command>`";
+        var msg = "List all commands: `cons?commands`\n";
+        msg += "Info about a command: `cons?help <command>`";
 
         var embed = new Discord.RichEmbed()
             .setColor(9955331)
