@@ -10,8 +10,8 @@ exports.config = {
 
     // where to send welcome message (guildID : channelID)
     WELCOME_MESSAGE_CHANNEL: {
-        "408735794094669824": "",
-        "617836255350358037": ""  // dog
+        "": "",
+        "": ""  // dog
         //"144518146232025088": ""
     }
 };
